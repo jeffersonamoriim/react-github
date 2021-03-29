@@ -18,7 +18,7 @@ const MainPage = () => {
           value={login}
           onChange={(event) => setLogin(event.target.value)}
         />
-        <Button>
+        <Button to={`/${login}/repositories`}>
           <MdSearch size="34" />
         </Button>
       </Form>
